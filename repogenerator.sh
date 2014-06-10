@@ -7,9 +7,6 @@
 echo -e "\nProject title?"
 read title
 
-echo -e "\nProject subtitle?"
-read subtitle
-
 # Gets the size of the title
 # Corresponds with a header of same length
 title_size=${#title}
@@ -22,8 +19,8 @@ done
 
 # First section, added $title
 readme=$(cat <<- EOF
-	$title
-	$header
+	    $title
+	    $header
 
     Table of Content
     ----------------
@@ -34,24 +31,24 @@ readme=$(cat <<- EOF
     - [License](#license)
     - [Support](#support)
     
-   Introduction <a name='intro'></a>
-   --------------------------------
-   
-   Installation <a name='install'></a>
-   ----------------------------------
-   
-   Usage <a name='usage'></a>
-   -------------------------
-   
-   License <a name='license'</a>
-   ----------------------------
+    Introduction <a name='intro'></a>
+    --------------------------------
+    
+    Installation <a name='install'></a>
+    ----------------------------------
+    
+    Usage <a name='usage'></a>
+    -------------------------
+    
+    License <a name='license'</a>
+    ----------------------------
 
-   Support <a name='support'></a>
-   ------------------------------
-   If you have any questions/concerns, please feel free to contact me.
-   My email address is guanhao3797@gmail.com
+    Support <a name='support'></a>
+    ------------------------------
+    If you have any questions/concerns, please feel free to contact me.
+    My email address is guanhao3797@gmail.com
 
-   **Will update the README when project is more substantial.
+    **Will update the README when project is more substantial.
 	
 EOF
 )
