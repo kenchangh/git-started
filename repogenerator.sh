@@ -27,7 +27,6 @@ Table of Content
 - [Introduction](#intro)
 - [Installation](#install)
 - [Usage](#usage)
-- [Software Used](#software)
 - [License](#license)
 - [Support](#support)
 
