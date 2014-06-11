@@ -41,6 +41,7 @@ Usage <a name='usage'></a>
 
 License <a name='license'</a>
 ----------------------------
+The following code has been released under the MIT License. See above for it.
 
 Support <a name='support'></a>
 ------------------------------
