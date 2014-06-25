@@ -19,7 +19,7 @@ git-started() {
     fi
   fi
     
-  if [[ " ${vars[*]} " == *" repo "* || $# -eq 0 ]]; then
+  if [[ " ${vars[*]} " == *" basic "* || $# -eq 0 ]]; then
     bash ~/Desktop/git-started/repogenerator.sh
   fi
 
