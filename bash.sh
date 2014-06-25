@@ -24,6 +24,7 @@ git-started() {
   fi
 
   git add --all :/
+  echo -e "\nAdded files to Git index"
   
   echo -e "\nEnter your commit message: "
   read message
